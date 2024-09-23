@@ -1,11 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: testpod
   namespace: default
 spec:
   containers:
-  - name: nginx
-    image: nginx:1.14.2
-    ports:
-    - containerPort: 80
+  - name: testing
+    image: docdoom12345/sample:1.0
